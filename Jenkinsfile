@@ -3,6 +3,7 @@ pipeline {
     environment {
         DJANGO_SETTINGS_MODULE = 'todo.settings'
         DOCKER_IMAGE = 'todo'
+        
         REGISTRY_CREDENTIALS = credentials('manishpawar')
         registry = "hemantyadav1708/to-do-app"
     }
